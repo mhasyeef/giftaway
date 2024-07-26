@@ -10,16 +10,17 @@ const Navbar = () => {
   const pathname = usePathname();
 
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
+  const [isWishlistMenuOpen, setIsWishlistMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-teal-400 border-b border-teal-300">
+    <nav className="bg-teal-600 border-b border-teal-500">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
             {/*Logo*/}
             <Link className="flex flex-shrink-0 items-center" href="/">
               <Image className="h-10 w-auto" src={logo} alt="PropertyPulse" />
-              <span className="hidden md:block text-white text-2xl font-extrabold ml-2">
+              <span className="hidden md:block text-orange-100 text-2xl font-extrabold ml-2">
                 giftaway
               </span>
             </Link>
@@ -30,7 +31,7 @@ const Navbar = () => {
                 <Link
                   className={`${
                     pathname === "/" ? "bg-teal-700" : " "
-                  } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 font-bold`}
+                  } text-orange-100 hover:bg-gray-900 hover:text-orange-100 rounded-md px-3 py-2 font-bold`}
                   href="/"
                 >
                   Home
@@ -38,15 +39,16 @@ const Navbar = () => {
                 <Link
                   className={`${
                     pathname === "/wishlist" ? "bg-teal-700" : " "
-                  } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 font-bold`}
+                  } text-orange-100 hover:bg-gray-900 hover:text-orange-100 rounded-md px-3 py-2 font-bold`}
                   href="/wishlist"
+                  //onClick={() => setIsWishlistMenuOpen((prev) => !prev)}
                 >
                   Wishlists
                 </Link>
                 <Link
                   className={`${
                     pathname === "/friends" ? "bg-teal-700" : " "
-                  } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2 font-bold`}
+                  } text-orange-100 hover:bg-gray-900 hover:text-orange-100 rounded-md px-3 py-2 font-bold`}
                   href="/"
                 >
                   Find friends
@@ -54,6 +56,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
+          {/* Notification & Profile Button */}
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0">
             <Link href="/messages" className="relative group">
               <button

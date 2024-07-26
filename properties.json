@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "item": "Wireless Earbuds",
+    "category": "Electronics",
+    "price": 129.99
+  },
+  {
+    "id": 2,
+    "item": "Smartwatch",
+    "category": "Electronics",
+    "price": 199.99
+  },
+  {
+    "id": 3,
+    "item": "Leather Backpack",
+    "category": "Fashion",
+    "price": 89.99
+  },
+  {
+    "id": 4,
+    "item": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 59.99
+  },
+  {
+    "id": 5,
+    "item": "Running Shoes",
+    "category": "Footwear",
+    "price": 109.99
+  },
+  {
+    "id": 6,
+    "item": "Instant Pot",
+    "category": "Home & Kitchen",
+    "price": 89.99
+  },
+  {
+    "id": 7,
+    "item": "Gaming Console",
+    "category": "Electronics",
+    "price": 499.99
+  },
+  {
+    "id": 8,
+    "item": "Novel Box Set",
+    "category": "Books",
+    "price": 49.99
+  },
+  {
+    "id": 9,
+    "item": "Designer Sunglasses",
+    "category": "Fashion",
+    "price": 149.99
+  },
+  {
+    "id": 10,
+    "item": "Yoga Mat",
+    "category": "Fitness",
+    "price": 29.99
+  },
+  {
+    "id": 11,
+    "item": "Electric Toothbrush",
+    "category": "Health & Personal Care",
+    "price": 69.99
+  },
+  {
+    "id": 12,
+    "item": "Wireless Charger",
+    "category": "Electronics",
+    "price": 39.99
+  },
+  {
+    "id": 13,
+    "item": "Camera Tripod",
+    "category": "Photography",
+    "price": 54.99
+  },
+  {
+    "id": 14,
+    "item": "Air Fryer",
+    "category": "Home & Kitchen",
+    "price": 99.99
+  },
+  {
+    "id": 15,
+    "item": "Travel Pillow",
+    "category": "Travel",
+    "price": 24.99
+  },
+  {
+    "id": 16,
+    "item": "Fitness Tracker",
+    "category": "Electronics",
+    "price": 79.99
+  },
+  {
+    "id": 17,
+    "item": "Art Supplies Set",
+    "category": "Arts & Crafts",
+    "price": 34.99
+  },
+  {
+    "id": 18,
+    "item": "Portable Hard Drive",
+    "category": "Electronics",
+    "price": 89.99
+  },
+  {
+    "id": 19,
+    "item": "Cookbook",
+    "category": "Books",
+    "price": 29.99
+  },
+  {
+    "id": 20,
+    "item": "Leather Wallet",
+    "category": "Fashion",
+    "price": 49.99
+  }
+]
